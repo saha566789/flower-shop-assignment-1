@@ -3,6 +3,83 @@ body{
 font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
-header{
-   
+/* header related style */
+.header{
+    background: rgba(229, 84, 115, 0.10);
 }
+.banner-container{
+    padding: 40px 40px 40px 200px;
+    display: flex;
+    align-items: center;
+    
+}
+.banner-info{
+    min-width: 634px;
+}
+.banner-container .profile-pic{
+    width: 400px;
+
+}
+.tittle{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.banner-des{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 10px;
+font-weight: 400;
+}
+.btn-primary{
+    border-radius: 4px;
+background: #E55473;
+color: #FFF;
+font-size: 10px;
+font-weight: 700;
+padding: 10px 30px;
+}
+/* main section styles */
+
+ /* Featured Flowers style */
+ .Featured-Flowers{
+    padding: 50px;
+    margin: 50px 0;
+    text-align: center;
+}
+.section-tittle{
+    color: #272727;
+    font-size: 40px;
+font-weight: 800;
+margin-bottom: 10px;
+}
+.section-des{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 10px;
+font-weight: 400;
+
+}
+ .featured-flowers-content{
+    display: flex;
+    gap: 24px;
+
+ }
+ .Featured-Flowers-info{
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+
+ }
+ .Featured-Flowers-pic1{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
+ }
+ .Featured-Flowers-pic2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+ }
+ .Featured-Flowers-pic3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+ }
