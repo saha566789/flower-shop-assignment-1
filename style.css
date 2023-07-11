@@ -13,10 +13,8 @@ font-family: 'Work Sans', sans-serif;
     align-items: center;
     
 }
-.banner-info{
-    min-width: 634px;
-}
-.banner-container .profile-pic{
+
+}.banner-container .profile-pic{
     width: 400px;
 
 }
@@ -137,6 +135,29 @@ font-weight: 400;
 }
 .logo-tittle{
     width: 300px;
-
-
 }
+
+    .get-container{
+        position: absolute;
+   width: 90%;
+   margin:0 auto;
+}
+.get-pic{
+    width:500px;
+}
+ .get-contant{
+    position:relative;
+    left: 400px;
+    top: 130px;
+    bottom: 30px;
+    right: 50px;
+  }
+  .get-tittle{
+    color: #272727;
+
+
+font-size: 40px;
+
+font-weight: 800;
+
+  }
