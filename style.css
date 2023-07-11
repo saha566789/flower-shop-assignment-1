@@ -8,10 +8,10 @@ font-family: 'Work Sans', sans-serif;
     background: rgba(229, 84, 115, 0.10);
 }
 .banner-container{
-    padding: 40px 40px 40px 200px;
+    padding: 40px 40px 0px 200px;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
 }
 
 .banner-container .profile-pic{
@@ -43,7 +43,7 @@ border: none;
 
  /* Featured Flowers style */
  .Featured-Flowers{
-    padding: 50px;
+    padding: 50px ;
     margin: 50px 0;
     text-align: center;
 }
@@ -95,9 +95,9 @@ text-decoration-line: underline;
  .hot-container{
     width: 100%;
    align-items: center;
-   justify-content: center;
+   justify-content:space-evenly;
   margin-right: 30px;
-  padding: 50px 50px 50px 100px;
+   padding: 50px;
 background: rgba(229, 84, 115, 0.05);
 display: flex;
  }
@@ -182,9 +182,9 @@ padding-top: 70px;
     margin-top: 100px;
   }
   .shop-title{    
-font-size: 48px;
+font-size: 100px;
 font-weight: 800;
-margin-bottom: 60px;
+margin-bottom: 70px;
   }
   .shop-des{
     color: rgba(255, 255, 255, 0.90);
